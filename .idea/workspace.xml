@@ -4,42 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/customer-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/CustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/exception/CustomerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/test/java/demo/ecommerce/customer/CustomerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/java/demo/ecommerce/discovery/DiscoveryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/test/java/demo/ecommerce/discovery/DiscoveryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/demo/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/demo/ecommerce/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/demo/configserver/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/test/java/demo/ecommerce/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="add config server and discovery service and customer full service">
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/product-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/product/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/test/java/demo/product/ProductApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +59,11 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ConfigServerApplication (1).executor": "Run",
     "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.CustomerApplication (1).executor": "Run",
     "Spring Boot.CustomerApplication.executor": "Run",
+    "Spring Boot.DiscoveryApplication (1).executor": "Run",
     "Spring Boot.DiscoveryApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "23",
@@ -104,6 +80,12 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "spring",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora",
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -161,6 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CustomerApplication (1)" />
@@ -185,12 +174,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728464031360</updated>
-      <workItem from="1728464032373" duration="10803000" />
+      <workItem from="1728464032373" duration="12443000" />
     </task>
+    <task id="LOCAL-00001" summary="add config server and discovery service and customer full service">
+      <option name="closed" value="true" />
+      <created>1728475984381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728475984381</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add config server and discovery service and customer full service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add config server and discovery service and customer full service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
