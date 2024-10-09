@@ -5,31 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/demo/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/demo/configserver/ConfigServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commerce-app-with-microservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/customer-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/CustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/handler/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/test/java/demo/ecommerce/customer/CustomerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/src/main/java/demo/ecommerce/discovery/DiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/src/test/java/demo/ecommerce/discovery/DiscoveryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/demo/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/demo/ecommerce/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/demo/configserver/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/test/java/demo/ecommerce/configserver/ConfigServerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "bekzodnosirovv"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bekzodnosirovv/e-commerce-with-microservice.git",
+    "accountId": "c7d81180-b393-4234-9fec-0f70a23475d4"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -41,31 +80,94 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.CustomerApplication.executor": "Run",
+    "Spring Boot.DiscoveryApplication.executor": "Run",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
+    "jdk.selected.JAVA_MODULE": "23",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/project/YouTube_uz",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15527344",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "spring",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustomerApplication (1)">
+    <configuration name="ConfigServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.configserver.ConfigServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.ecommerce.configserver.ConfigServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.ecommerce.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.ecommerce.CustomerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.ecommerce.discovery.DiscoveryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.ecommerce.discovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CustomerApplication (1)" />
+        <item itemvalue="Spring Boot.DiscoveryApplication (1)" />
+        <item itemvalue="Spring Boot.ConfigServerApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -83,11 +185,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728464031360</updated>
-      <workItem from="1728464032373" duration="1782000" />
+      <workItem from="1728464032373" duration="10803000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
