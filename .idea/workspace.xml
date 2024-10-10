@@ -4,49 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="add product service">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/OrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/test/java/demo/ecommerce/OrderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/category/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/exception/ProductPurchaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/ProductPurchaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/ProductPurchaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/resources/db/migration/V1__init_database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/resources/db/migration/V2__insert_data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="add order service">
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/customer/CustomerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/customer/CustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderLineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/PurchaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/orderline/OrderLineMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/orderline/OrderLineRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/orderline/OrderLineRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/product/ProductClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/product/PurchaseResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/product-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/product-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/demo/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/demo/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/test/java/demo/product/ProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/test/java/demo/ecommerce/ProductApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/OrderApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -76,6 +53,9 @@
     &quot;accountId&quot;: &quot;c7d81180-b393-4234-9fec-0f70a23475d4&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -124,6 +104,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="demo.ecommerce.orderline" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\e-commerce-app-with-microservice\product\src\main\java\demo\ecommerce" />
     </key>
@@ -221,7 +204,7 @@
       <updated>1728464031360</updated>
       <workItem from="1728464032373" duration="13745000" />
       <workItem from="1728487694831" duration="11206000" />
-      <workItem from="1728532872367" duration="3484000" />
+      <workItem from="1728532872367" duration="10466000" />
     </task>
     <task id="LOCAL-00001" summary="add config server and discovery service and customer full service">
       <option name="closed" value="true" />
@@ -247,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728477504755</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add order service">
+      <option name="closed" value="true" />
+      <created>1728536468518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728536468518</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +247,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add config server and discovery service and customer full service" />
     <MESSAGE value="add product service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add product service" />
+    <MESSAGE value="add order service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add order service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
