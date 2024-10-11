@@ -1,4 +1,4 @@
-package demo.ecommerce.order;
+package demo.ecommerce.payment;
 
 public enum PaymentMethod {
     PAYME,

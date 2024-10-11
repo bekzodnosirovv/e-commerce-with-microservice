@@ -1,6 +1,7 @@
 package demo.ecommerce.order;
 
 import demo.ecommerce.orderline.OrderLine;
+import demo.ecommerce.payment.PaymentMethod;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;

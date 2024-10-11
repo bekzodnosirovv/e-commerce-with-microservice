@@ -1,7 +1,7 @@
 package demo.ecommerce.kafka;
 
 import demo.ecommerce.customer.CustomerResponse;
-import demo.ecommerce.order.PaymentMethod;
+import demo.ecommerce.payment.PaymentMethod;
 import demo.ecommerce.product.PurchaseResponse;
 
 import java.math.BigDecimal;

@@ -4,12 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="payment service add controller and service and notification">
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/payment/PaymentClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/payment/PaymentRequest.java" afterDir="false" />
+    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="order service integration payment-service">
+      <change afterPath="$PROJECT_DIR$/notification/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/NotificationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/kafka/NotificationConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/kafka/order/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/kafka/order/OrderConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/kafka/order/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/kafka/payment/PaymentConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/kafka/payment/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/notification/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/notification/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/notification/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/test/java/demo/ecommerce/NotificationApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/kafka/OrderConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/kafka/OrderConfirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/payment/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/payment/PaymentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/payment/PaymentRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +38,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,11 +120,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="demo.ecommerce.kafka.order" />
+      <recent name="demo.ecommerce.kafka.payment" />
       <recent name="demo.ecommerce.payment" />
       <recent name="demo.ecommerce.notification" />
       <recent name="demo.ecommerce.order" />
-      <recent name="demo.ecommerce.kafka" />
-      <recent name="demo.ecommerce.orderline" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\e-commerce-app-with-microservice\order\src\main\java\demo\ecommerce" />
@@ -166,6 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.ecommerce.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="demo.ecommerce.OrderApplication" />
@@ -217,7 +243,7 @@
       <workItem from="1728559205465" duration="1448000" />
       <workItem from="1728562215101" duration="727000" />
       <workItem from="1728563353999" duration="2673000" />
-      <workItem from="1728619390243" duration="17775000" />
+      <workItem from="1728619390243" duration="20336000" />
     </task>
     <task id="LOCAL-00001" summary="add config server and discovery service and customer full service">
       <option name="closed" value="true" />
@@ -291,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728648204593</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="order service integration payment-service">
+      <option name="closed" value="true" />
+      <created>1728649946740</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728649946740</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +339,8 @@
     <MESSAGE value="order service finish" />
     <MESSAGE value="payment service" />
     <MESSAGE value="payment service add controller and service and notification" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment service add controller and service and notification" />
+    <MESSAGE value="order service integration payment-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="order service integration payment-service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

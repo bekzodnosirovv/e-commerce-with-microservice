@@ -1,7 +1,6 @@
 package demo.ecommerce.payment;
 
 import demo.ecommerce.customer.CustomerResponse;
-import demo.ecommerce.order.PaymentMethod;
 
 import java.math.BigDecimal;
 
