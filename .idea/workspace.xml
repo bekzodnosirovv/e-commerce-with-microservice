@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="order service finish">
-      <change afterPath="$PROJECT_DIR$/payment/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/demo/ecommerce/PaymentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/demo/ecommerce/payment/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/demo/ecommerce/payment/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/demo/ecommerce/payment/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/demo/ecommerce/payment/PaymentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/demo/ecommerce/payment/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/demo/ecommerce/payment/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/demo/ecommerce/payment/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/demo/ecommerce/payment/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/test/java/demo/ecommerce/payment/PaymentApplicationTests.java" afterDir="false" />
+    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="payment service add controller and service and notification">
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/payment/PaymentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/payment/PaymentRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +21,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Record" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -114,6 +102,7 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="demo.ecommerce.payment" />
+      <recent name="demo.ecommerce.notification" />
       <recent name="demo.ecommerce.order" />
       <recent name="demo.ecommerce.kafka" />
       <recent name="demo.ecommerce.orderline" />
@@ -228,7 +217,7 @@
       <workItem from="1728559205465" duration="1448000" />
       <workItem from="1728562215101" duration="727000" />
       <workItem from="1728563353999" duration="2673000" />
-      <workItem from="1728619390243" duration="14363000" />
+      <workItem from="1728619390243" duration="17775000" />
     </task>
     <task id="LOCAL-00001" summary="add config server and discovery service and customer full service">
       <option name="closed" value="true" />
@@ -278,7 +267,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728642674615</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="payment service">
+      <option name="closed" value="true" />
+      <created>1728646257034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728646257034</updated>
+    </task>
+    <task id="LOCAL-00008" summary="payment service">
+      <option name="closed" value="true" />
+      <created>1728646261388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728646261388</updated>
+    </task>
+    <task id="LOCAL-00009" summary="payment service add controller and service and notification">
+      <option name="closed" value="true" />
+      <created>1728648204593</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728648204593</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +303,9 @@
     <MESSAGE value="add order service" />
     <MESSAGE value="order service add integration customer service , product service" />
     <MESSAGE value="order service finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="order service finish" />
+    <MESSAGE value="payment service" />
+    <MESSAGE value="payment service add controller and service and notification" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment service add controller and service and notification" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
