@@ -1,5 +1,6 @@
-package demo.ecommerce.order;
+package demo.ecommerce.orderline;
 
+import demo.ecommerce.order.Order;
 import jakarta.persistence.*;
 import lombok.*;
 

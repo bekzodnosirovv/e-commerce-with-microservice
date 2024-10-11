@@ -1,6 +1,6 @@
 package demo.ecommerce.handler;
 
-import demo.ecommerce.exception.ProductPurchaseException;
+import demo.ecommerce.exception.BusinessException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,8 +14,8 @@ import java.util.HashMap;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(ProductPurchaseException.class)
-    public ResponseEntity<String> handle(ProductPurchaseException ex) {
+    @ExceptionHandler(BusinessException.class)
+    public ResponseEntity<String> handle(BusinessException ex) {
         return ResponseEntity
                 .status(HttpStatus.BAD_REQUEST)
                 .body(ex.getMessage());

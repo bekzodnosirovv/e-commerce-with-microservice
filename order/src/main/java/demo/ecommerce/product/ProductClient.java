@@ -1,7 +1,6 @@
 package demo.ecommerce.product;
 
 import demo.ecommerce.exception.BusinessException;
-import demo.ecommerce.order.PurchaseRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;

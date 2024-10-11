@@ -1,7 +1,6 @@
 package demo.ecommerce.orderline;
 
 import demo.ecommerce.order.Order;
-import demo.ecommerce.order.OrderLine;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -21,5 +20,9 @@ public class OrderLineMapper {
                 .build();
 
 
+    }
+
+    public OrderLineResponse toOrderLineResponse(OrderLine orderLine) {
+        return new OrderLineResponse(orderLine.getId(), orderLine.getQuantity());
     }
 }

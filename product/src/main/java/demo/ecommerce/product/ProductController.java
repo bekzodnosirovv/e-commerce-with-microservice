@@ -1,6 +1,7 @@
 package demo.ecommerce.product;
 
 import jakarta.validation.Valid;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,6 +12,7 @@ import java.util.List;
 @RequestMapping("/api/v1/products")
 @RequiredArgsConstructor
 public class ProductController {
+
 
     private final ProductService productService;
 

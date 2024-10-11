@@ -1,5 +1,6 @@
 package demo.ecommerce.order;
 
+import demo.ecommerce.product.PurchaseRequest;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
