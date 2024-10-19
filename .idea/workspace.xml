@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="add notification send email">
+    <list default="true" id="f39fe551-6893-4f13-bd1b-41a47e7ec5ad" name="Changes" comment="finish">
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/customer-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/customer-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/notification-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/notification-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/order/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/category/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/demo/ecommerce/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/email/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/demo/ecommerce/email/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/demo/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,8 +221,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CustomerApplication (1)" />
         <item itemvalue="Spring Boot.ConfigServerApplication (1)" />
+        <item itemvalue="Spring Boot.CustomerApplication (1)" />
         <item itemvalue="Spring Boot.DiscoveryApplication (1)" />
       </list>
     </recent_temporary>
@@ -262,7 +260,8 @@
       <workItem from="1728706363408" duration="13033000" />
       <workItem from="1728753894509" duration="830000" />
       <workItem from="1728880378622" duration="9745000" />
-      <workItem from="1729246993357" duration="5908000" />
+      <workItem from="1729246993357" duration="7610000" />
+      <workItem from="1729313105577" duration="8887000" />
     </task>
     <task id="LOCAL-00001" summary="add config server and discovery service and customer full service">
       <option name="closed" value="true" />
@@ -360,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728719809036</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finish">
+      <option name="closed" value="true" />
+      <created>1729254489462</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729254489462</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +384,8 @@
     <MESSAGE value="order service integration payment-service" />
     <MESSAGE value="add notification service" />
     <MESSAGE value="add notification send email" />
-    <option name="LAST_COMMIT_MESSAGE" value="add notification send email" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

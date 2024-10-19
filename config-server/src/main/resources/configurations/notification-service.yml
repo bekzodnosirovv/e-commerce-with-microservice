@@ -1,11 +1,11 @@
 spring:
   data:
     mongodb:
-      username: userjon
-      password: 12345
+      username: adminUser
+      password: securePassword123
       host: localhost
       port: 27017
-      database: customer
+      database: customers
       authentication-database: admin
   kafka:
     consumer:
@@ -21,8 +21,8 @@ spring:
   mail:
     host: localhost
     port: 1025
-    username: bekzod
-    password: 12345
+    username: bekzodnosirov02@gmail.com
+    password: dbvrilpoezxlnyyn
     properties:
       mail:
         smtp:
@@ -35,3 +35,13 @@ spring:
         writetimeout: 5000
 server:
   port: 8040
+
+#  spring.mail.host=smtp.gmail.com
+#  spring.mail.port=587
+#  spring.mail.username=bekzodnosirov02@gmail.com
+#  spring.mail.password=dbvrilpoezxlnyyn
+#  spring.mail.properties.mail.smtp.auth=true
+#  spring.mail.properties.mail.smtp.connectiontimeout=5000
+#  spring.mail.properties.mail.smtp.timeout=5000
+#  spring.mail.properties.mail.smtp.writetimeout=5000
+#  spring.mail.properties.mail.smtp.starttls.enable=true

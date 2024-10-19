@@ -36,7 +36,7 @@ public class EmailService {
                                         String orderReference) throws MessagingException {
         MimeMessage mimeMessage = mailSender.createMimeMessage();
         MimeMessageHelper mimeMessageHelper =
-                new MimeMessageHelper(mimeMessage, MimeMessageHelper.MULTIPART_MODE_RELATED, UTF_8.name());
+                new MimeMessageHelper(mimeMessage, true);
         mimeMessageHelper.setFrom("bekzodnosirov02@gmail.com");
 
         final String templateName = PAYMENT_CONFIRMATION.getTemplate();
